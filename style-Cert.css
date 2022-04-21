@@ -1,0 +1,42 @@
+body {
+  background-image: url("/img/Certificate-Design.png");
+  height: 804px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.txt-specs {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  color: #e1ba67;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 22;
+  align-items: center; */
+  text-align: center;
+}
+
+.C-style {
+  /* line-height: 14cm; */
+  padding-top: 6.5cm;
+}
+
+.N-style {
+  padding-top: 1cm;
+  font-size: x-large;
+}
+
+.G-D-style {
+  padding-top: 3cm;
+}
+
+.D-style {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  line-height: 6cm;
+}

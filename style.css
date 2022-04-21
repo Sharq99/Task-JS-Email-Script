@@ -1,0 +1,29 @@
+body {
+  background-color: #ffeedb;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.cert {
+  color: #000001;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: 35px;
+}
+
+.btn {
+  font-family: "Lato", sans-serif;
+  border: none;
+  color: #fefefe; /* text color */
+  background-color: #0e79b2; /* Button color */
+  width: 205px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 19px;
+}

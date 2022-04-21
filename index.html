@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        >
+        <link
+            rel="stylesheet"
+            href="style.css"
+        > 
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+        </style>
+
+        <title>Certificate Generator</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.2/xlsx.full.min.js"></script>
+
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="cert">Press the Button to Generate and Send the Certificates</h1>
+            <button id = "Gen" class="btn" onclick="Generate()">Generate Certificates</button>
+            <!-- <a id="email" href="#">
+                Click to mail.
+            </a> -->
+        </div>
+        
+
+        <script src="index.js"></script>
+        <script src="app.js"></script>
+    </body>
+
+</html>
